@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/project-rainly-girl/static/css/main.fc8f1bbe.css",
+    "main.js": "/project-rainly-girl/static/js/main.a2d6a74c.js",
+    "static/media/DOSIyagiBoldface.ttf": "/project-rainly-girl/static/media/DOSIyagiBoldface.28e2844ca4b104212184.ttf",
+    "static/media/home.png": "/project-rainly-girl/static/media/home.b1bc0420a8a0ff5a6203.png",
+    "static/media/smile-75.png": "/project-rainly-girl/static/media/smile-75.986db9cbd5020013adb7.png",
+    "static/media/smile-100.png": "/project-rainly-girl/static/media/smile-100.1d943602bb53fdc7a06c.png",
+    "static/media/smile-25.png": "/project-rainly-girl/static/media/smile-25.0ef2441fbc7ddcce4b38.png",
+    "static/media/smile-0.png": "/project-rainly-girl/static/media/smile-0.685637b4627121e849dd.png",
+    "static/media/school.png": "/project-rainly-girl/static/media/school.8c4f77299d7d143dff13.png",
+    "index.html": "/project-rainly-girl/index.html",
+    "main.fc8f1bbe.css.map": "/project-rainly-girl/static/css/main.fc8f1bbe.css.map",
+    "main.a2d6a74c.js.map": "/project-rainly-girl/static/js/main.a2d6a74c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc8f1bbe.css",
+    "static/js/main.a2d6a74c.js"
+  ]
+}
