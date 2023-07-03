@@ -1,0 +1,75 @@
+{
+  "name": "project-rainly-girl",
+  "homepage": "https://ji1kang.github.io/project-rainly-girl/",
+  "version": "1.0.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ji1kang/project-rainly-girl"
+  },
+  "author": {
+    "name": "Jiwon Kang",
+    "email": "jiwonkang@g.skku.edu",
+    "url": "https://github.com/ji1kang"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "bad-words": "^3.0.4",
+    "daisyui": "^2.51.6",
+    "langchain": "^0.0.98",
+    "openai": "^3.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ga4": "^2.1.0",
+    "react-icons": "^4.7.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "text-davinci-003",
+    "gpt",
+    "gpt3",
+    "image generation",
+    "machine learning",
+    "conversational ai",
+    "conversation",
+    "chatbot",
+    "chat",
+    "bot",
+    "ai",
+    "ml",
+    "bot"
+  ]
+}
