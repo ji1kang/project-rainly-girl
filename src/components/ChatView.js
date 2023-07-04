@@ -287,7 +287,7 @@ const ChatView = () => {
     if (chatCount >= CHAT_LIMIT) {
       setUserSpeaker('시스템');
     }
-  })
+  }, [userSpeaker])
 
   return (
     <div className='chatview'>
