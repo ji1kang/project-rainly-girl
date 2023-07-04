@@ -1,4 +1,4 @@
-# 도서관에 내리는 오랜 비 (Project Rainly Girl)
+# ☔️❤️ 도서관에 내리는 오랜 비 (Project Rainly Girl)
 
 ![섬네일](src/assets/img/thumbnail.jpg)
 
@@ -6,13 +6,15 @@ ChatGPT 기반의 텍스트 시뮬레이션. 그칠줄 모르는 장마가 지�
 소녀와 이야기하며 소녀에게 호감을 얻어보세요. 호감도가 높아지면 당신은 소녀에게 귀중한 선물을 받게될지도 모릅니다.
 엔딩은 당신의 대화에 따라 결정됩니다.
 
+_Embark on a captivating journey in this text-based simulation game based on ChatGPT. Immerse yourself in an endless rainy summer as you stumble upon a mysterious girl at the school library. Engage in heartfelt conversations and navigate the complexities of human connection to earn her affection. With each interaction, your bond deepens, unlocking the possibility of receiving precious gifts. The outcome of this enchanting tale rests solely on the choices you make during these impactful dialogues. Are you ready to shape your own destiny in this immersive narrative experience?_
+
 ## [🎮 Web Demo](https://ji1kang.github.io/project-rainly-girl/)
 
 ⚠️ 플레이를 위해서는 **OpenAPI Key가 필요**하며, 한회차 플레이시 $0.3 정도가 부과됩니다 (여유로운 추정치)
 
 ---
 
-## Assets
+## 📦 Assets
 
 - Frontend Template: [ChatGPT clone with DALL.E image generation model by Eyuel](https://github.com/EyuCoder/chatgpt-clone)
 - Font: [DOSGothic (도스고딕) by hurss](https://github.com/hurss/fonts)
@@ -23,7 +25,7 @@ ChatGPT 기반의 텍스트 시뮬레이션. 그칠줄 모르는 장마가 지�
 
 ---
 
-## 프로젝트 커스텀
+## 💻 프로젝트 커스텀
 
 - 해당 프로젝트를 활용해 커스텀할 수 있습니다
 
@@ -69,3 +71,7 @@ npm run deploy
 - [프롬프트 테스트 (openAI)](https://platform.openai.com/playground)
 - [LangChain.js](https://js.langchain.com/docs)
 - [Awesome AI Tools for Game Developers](https://github.com/simoninithomas/awesome-ai-tools-for-game-dev)
+
+---
+
+🤗 대화로그는 드래그해서 복사가 가능합니다. Pull Request로 언제든지 대화로그와 감상을 남겨주시면 환영이에요!
