@@ -20,7 +20,7 @@ const App = () => {
       <Modal title='게임 가이드' modalOpen={modalOpen} setModalOpen={setModalOpen}>
         <GameGuide modalOpen={modalOpen} setModalOpen={setModalOpen} />
       </Modal>
-      <div className='flex transition duration-500 ease-in-out'>
+      <div className='flex transition duration-500 ease-in-out min-w-[1024px]'>
         <SideBar />
         <ChatView />
       </div>
