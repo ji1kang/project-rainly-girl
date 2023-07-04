@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react';
 import {
-  MdReportGmailerrorred,
   MdOutlineRestartAlt,
-  MdSpeakerNotes,
-  MdOutlineVpnKey
+  MdOutlineVpnKey,
+  MdReportGmailerrorred,
+  MdSpeakerNotes
 } from 'react-icons/md';
 import { TITLE } from '../assets/script';
 import { ChatContext } from '../context/chatContext';
@@ -21,10 +21,11 @@ import Setting from './Setting';
  */
 const SideBar = () => {
   const [open, setOpen] = useState(true);
-  const [messages, addMessage, clearMessages, chatCount, addChatCount, clearChatCount] = useContext(ChatContext);
+  const [messages] = useContext(ChatContext);
 
   const [settingModalOpen, setSettingModalOpen] = useState(false);
   const [promptModalOpen, setPromptModalOpen] = useState(false);
+  const [logModalOpen, setLogModalOpen] = useState(false);
 
   function handleResize() {
     window.innerWidth <= 720 ? setOpen(false) : setOpen(true);
@@ -34,7 +35,9 @@ const SideBar = () => {
     handleResize();
   }, []);
 
-  const clearChat = () => clearMessages();
+  const clearChat = () => {
+    window.location.reload();
+  };
 
   return (
     <section className={`w-80 sidebar`}>
@@ -90,6 +93,7 @@ const SideBar = () => {
             <h1>OpenAI Key</h1>
           </span>
         </div>
+
         <div onClick={() => setPromptModalOpen(true)} className='nav'>
           <span htmlFor='setting-modal' className='nav__item'>
             <div className='nav__icons'>
@@ -103,6 +107,8 @@ const SideBar = () => {
       <Modal title='Setting' modalOpen={settingModalOpen} setModalOpen={setSettingModalOpen}>
         <Setting modalOpen={settingModalOpen} setModalOpen={setSettingModalOpen} />
       </Modal>
+
+
 
       <Modal title='프롬프트 확인 (for developer)' modalOpen={promptModalOpen} setModalOpen={setPromptModalOpen}>
         <PromptStatus modalOpen={promptModalOpen} setModalOpen={setPromptModalOpen} />
