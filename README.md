@@ -12,6 +12,12 @@ npm i
 npm start
 ```
 
+## deploy app
+
+```bash
+npm run deploy
+```
+
 **_Tech used_**
 
 - openai API
@@ -28,7 +34,8 @@ npm start
 
 - 프롬프트 테스트 (openAI): https://platform.openai.com/playground
 - LangChain.js: https://js.langchain.com/docs
+- 깃허브 페이지로 배포하기: https://whales.tistory.com/104
 
 ## 📝 License
 
-- Template: [ChatGPT clone with DALL.E image generation model by Eyuel](https://github.com/EyuCoder/chatgpt-clone)
+- Frontend Template: [ChatGPT clone with DALL.E image generation model by Eyuel](https://github.com/EyuCoder/chatgpt-clone)
