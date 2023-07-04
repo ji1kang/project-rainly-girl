@@ -69,7 +69,7 @@ const SideBar = () => {
       </div>
 
       <div className='nav'>
-        <span className='border nav__item border-neutral-600' onClick={clearChat}>
+        <span className='border nav__item border-neutral-600'>
           <div className='nav__icons'>
             <MdSpeakerNotes />
           </div>

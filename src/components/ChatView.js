@@ -122,7 +122,8 @@ const ChatView = () => {
         );
 
       } catch (err) {
-        window.alert(`Error: ${err} please try again later`);
+        // For debug
+        // window.alert(`Error: ${err} please try again later`);
       }
 
       setThinking(false);
@@ -151,7 +152,8 @@ const ChatView = () => {
         response.data.response, null, 0, false, false, false, true
       );
     } catch (err) {
-      window.alert(`Error: ${err} please try again later`);
+      // For debug
+      // window.alert(`Error: ${err} please try again later`);
     }
 
     setLoading(false);
@@ -325,7 +327,7 @@ const ChatView = () => {
       {/* Chat Area */}
 
       <main className='chatview__chatarea'>
-        {messages.slice(messages.length - 2).map((message, index) => (
+        {messages.map((message, index) => (
           <ChatMessage key={index} message={{ ...message }} />
         ))}
 
