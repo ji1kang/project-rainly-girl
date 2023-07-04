@@ -50,11 +50,11 @@ npm run deploy
 
 **_주요 프로젝트 구조_**
 
-- `src/components/ChatView.js`: 프로젝트 메인 페이지, 게임 진행을 위한 대화 및 이벤트 관리
-- `src/assets/prompt.js` & `src/utils/davinci.js`: OpenAI API와 langchain.js을 사용하여 대화 및 요약 모델을 실행
-- `src/assets/script.js`: 게임 상태 및 기본 문구 설정
-- `src/components/SideBar.js`: 사이드바 관리
-- `src/context/chatContext.js` & `src/hooks/useMessageCollection.js`: 게임 진행을 위한 대화 히스토리 저장 및 관리
+- `components/ChatView.js`: 프로젝트 메인 페이지, 게임 진행을 위한 대화 및 이벤트 관리
+- `assets/prompt.js` & `utils/davinci.js`: OpenAI API와 langchain.js을 사용하여 대화 및 요약 모델을 실행
+- `assets/script.js`: 게임 상태 및 기본 문구 설정
+- `components/SideBar.js`: 사이드바 관리
+- `context/chatContext.js` & `hooks/useMessageCollection.js`: 게임 진행을 위한 대화 히스토리 저장 및 관리
 
 **_Tech used_**
 
