@@ -305,7 +305,7 @@ const ChatView = () => {
           </div></p>
 
           <p className='character__status'>
-            <h1>종료까지</h1>
+            <h1>엔딩까지</h1>
             <h1>{DAY_LIMIT - currentDay > 0 ? `D - ${DAY_LIMIT - currentDay}` : 'D-day'}</h1>
           </p>
 

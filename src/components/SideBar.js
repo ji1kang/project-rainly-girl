@@ -3,7 +3,8 @@ import {
   MdOutlineRestartAlt,
   MdOutlineVpnKey,
   MdReportGmailerrorred,
-  MdSpeakerNotes
+  MdSpeakerNotes,
+  MdOutlineCode
 } from 'react-icons/md';
 import { TITLE } from '../assets/script';
 import { ChatContext } from '../context/chatContext';
@@ -102,6 +103,16 @@ const SideBar = () => {
             <h1>프롬프트 확인</h1>
           </span>
         </div>
+
+        <div className='nav'>
+          <span htmlFor='setting-modal' className='nav__item'>
+            <div className='nav__icons'>
+              <MdOutlineCode />
+            </div>
+            <h1><a target='_blank' href='https://github.com/ji1kang/project-rainly-girl'>GitHub 프로젝트 페이지</a></h1>
+          </span>
+        </div>
+
       </div>
 
       <Modal title='Setting' modalOpen={settingModalOpen} setModalOpen={setSettingModalOpen}>
