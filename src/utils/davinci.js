@@ -19,6 +19,20 @@ function parseMarkdown(markdownText) {
   return { response: ERROR, fav: 0 }
 }
 
+function processSummary(text) {
+
+  let replacedText = text.replace(/유저/g, '나');
+  replacedText = replacedText.replace(/NPC/g, '소녀');
+
+
+  // 중간에 LLM 토큰 초과시 완성된 문장만 노출.
+  const lastIndex = replacedText.lastIndexOf('.');
+
+  return replacedText.slice(0, lastIndex + 1);
+
+}
+
+
 export const chatModel = async (chat, key, history) => {
   const configuration = {
     openAIApiKey: key,
@@ -87,10 +101,10 @@ export const summaryModel = async (key, history, current_day) => {
   console.log('요약 입력', formatted_prompt)
 
   const response = await model.call(formatted_prompt);
-
+  const processed_response = processSummary(response);
   console.log('요약 출력', response)
 
-  return { 'data': { 'response': response } };
+  return { 'data': { 'response': processed_response } };
 
 
 };
