@@ -9,7 +9,7 @@ const Thinking = () => {
       </div>
 
       <div className='mx-4 w-60'>
-        정체불명의 소녀
+        소녀
       </div>
 
     </div>
