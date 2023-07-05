@@ -85,7 +85,7 @@ export const summaryModel = async (key, history, current_day) => {
 
   const current_summary = history
     .filter((item) => item.summary)
-    .map((item) => `day ${item.day}: ${item.text}\n`);
+    .map((item) => `day ${item.day}: ${item.text}`);
 
   const new_chat = history
     .filter((item) => !item.summary && !item.system && item.day === current_day)

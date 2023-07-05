@@ -147,7 +147,6 @@ const ChatView = () => {
 
     try {
       const response = await summaryModel(key, messages, currentDay);
-      console.log('ChatView - 요약');
       response.data && updateMessage(
         response.data.response, null, 0, false, false, false, true
       );
