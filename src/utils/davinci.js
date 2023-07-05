@@ -37,10 +37,10 @@ export const chatModel = async (chat, key, history) => {
   const configuration = {
     openAIApiKey: key,
     modelName: 'gpt-3.5-turbo',
-    temperature: 1.0,
+    temperature: 0.5,
     presencePenalty: 0.0,
     frequencyPenalty: 0.0,
-    topP: 0.9,
+    topP: 0.95,
     maxTokens: 250,
   };
 
@@ -98,11 +98,9 @@ export const summaryModel = async (key, history, current_day) => {
     current_day: current_day
   });
 
-  console.log('요약 입력', formatted_prompt)
 
   const response = await model.call(formatted_prompt);
   const processed_response = processSummary(response);
-  console.log('요약 출력', response)
 
   return { 'data': { 'response': processed_response } };
 
