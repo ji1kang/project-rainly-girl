@@ -37,10 +37,10 @@ export const chatModel = async (chat, key, history) => {
   const configuration = {
     openAIApiKey: key,
     modelName: 'gpt-3.5-turbo',
-    temperature: 0.5,
+    temperature: 0.8,
     presencePenalty: 0.0,
     frequencyPenalty: 0.0,
-    topP: 0.95,
+    topP: 0.98,
     maxTokens: 250,
   };
 

@@ -50,13 +50,13 @@ export const EVENT = [
       chat: true,
       system: false,
     }, {
-      text: '... 저기, 사랑 이란건 어떤 감정일까.',
+      text: '... 저기, 친구란 뭘까?',
       ai: true,
       fav: 10,
       chat: true,
       system: false,
     }, {
-      text: '영원히 함께 있고 싶다, 그런 느낌?',
+      text: '계속 계속 만나고 싶고, 얘기하고 싶은 것? 우리처럼.',
       ai: false,
       chat: true,
       system: false,
@@ -115,13 +115,13 @@ export const EVENT = [
       system: false,
       action: '엔딩'
     }, {
-      text: "그런 말은 사랑하는 사람에게 실례인걸. 여기가 '우리' 집이야. 그리고 그건 너.",
+      text: "그런 말은 친구에게 실례인걸. 여기가 '우리' 집이야. 그리고 그건 너.",
       ai: true,
       fav: 999,
       chat: true,
       system: false,
     }, {
-      text: "너도 나를 사랑하고, 나도 너를 사랑한다는걸 깨달았어. 그러니 너에게 영원을 선물할게.",
+      text: "너도 나를 좋아하고, 나도 너를 좋아한다는걸 깨달았어. 그러니 너에게 영원을 선물할게. 이렇게되면 가까이에서 매일, 매일 얘기하고 놀 수 있어.",
       ai: true,
       fav: 999,
       chat: true,
